@@ -1,19 +1,15 @@
-const API = "https://TU-BACKEND.onrender.com";
+const API = "https://eramr18.github.io/ProyectoNube/";
 
 async function cargar(){
 
-    const respuesta = await fetch(API);
-
-    const tareas = await respuesta.json();
+    function cargar(){
 
     const lista = document.getElementById("lista");
 
-    lista.innerHTML = "";
-
-    tareas.forEach(t => {
-
-        lista.innerHTML += `
-            <li>${t.nombre}</li>
-        `;
-    });
+    lista.innerHTML = `
+        <li>Estudiar</li>
+        <li>Hacer tarea</li>
+        <li>Subir proyecto</li>
+    `;
+}
 }
