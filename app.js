@@ -1,8 +1,6 @@
 const API = "https://eramr18.github.io/ProyectoNube/";
 
-async function cargar(){
-
-    function cargar(){
+function cargar(){
 
     const lista = document.getElementById("lista");
 
@@ -11,5 +9,4 @@ async function cargar(){
         <li>Hacer tarea</li>
         <li>Subir proyecto</li>
     `;
-}
 }
